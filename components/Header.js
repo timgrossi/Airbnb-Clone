@@ -96,11 +96,11 @@ function Header({ placeholder }) {
                     </div>
 
                     <div className="flex">
-                        <button onClick={resetInput} className="flex-grow text-gray-600">
+                        <button onClick={resetInput} className="flex-grow text-red-400 flex items-center border-2 rounded-full p-2 md:shadow-md text-center px-4 py-2  cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition-transform duration-100 ease-out">
                             Cancel
                         </button>
-
-                        <button className="flex-grow text-red-400" onClick={search}>
+                        
+                        <button className="flex-grow bg-red-400 text-white flex items-center border-2 rounded-full p-2 md:shadow-md px-4 py-2 cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition-transform duration-100 ease-out" onClick={search}>
                             Search
                         </button>
 

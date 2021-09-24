@@ -8,7 +8,7 @@ import SmallCard from '../components/SmallCard';
 
 export default function Home({ exploreData, cardsData }) {
   return (
-    <div className="">
+    <div className="bg-gray-100">
       <Head>
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Home({ exploreData, cardsData }) {
     
       <Header />
       <Banner />
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className="max-w-5xl mx-auto px-8 sm:px-16 bg-white rounded-xl mt-5 mb-5 shadow-md">
         <section className="pt-4">
             <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
 
